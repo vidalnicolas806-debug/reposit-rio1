@@ -1,0 +1,15 @@
+meme_dict = {
+            "CRINGE": "Algo vergonhoso ou constrangedor",
+            "STALKEAR": "Investigar a vida de alguém online",
+            "BRAINHOT": "Coisas consideradas engraçadas, mas são sem sentido, e parecem 'apodrecer a mente'",
+            "SS": "Sim",
+            "NN": "Não",
+            "TANKAR": "Aguentar algo chato/difícil",
+            "FARMAR AURA": "Fazer algo que chama atenção  ou ficar falando 67",
+            "67": "Meme de um menino gritando six seven",
+            }
+word = input("Digite uma palavra moderna que você não entende (escreva todo a palavra em letras maiúsculas): ")
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("O criador do código foi preguiçoso e não colocou essa palavra ainda")
