@@ -31,4 +31,4 @@ async def baby(ctx, count_baby = 5):
 bot.run("token")
 
 
-print('2 comandos não funcionam')
+print('2 comandos não funcionam: o $baby e o joined')
